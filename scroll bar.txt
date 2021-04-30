@@ -1,0 +1,12 @@
+   /* for chrome safari opera */
+.feed::-webkit-scrollbar{
+          display: none;
+          background: #00b9ff;
+}
+
+      /* for Ie edge firefox */
+
+.feed::-webkit-scrollbar{
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+}
